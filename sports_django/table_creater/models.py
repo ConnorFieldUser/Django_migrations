@@ -17,8 +17,3 @@ class Fighter(models.Model):
     reversals = models.IntegerField()
     passes = models.IntegerField()
     submissions = models.IntegerField()
-
-# class Team(models.Model):
-#     name = models.CharField(max_length=100)
-#     year = models.IntegerField()
-#     captain = models.ForeignKey(Person)
